@@ -1,5 +1,4 @@
 {
-  "TIME_ZONE": "America/Merida",
   "DEBUG": true,
   "DB":{
     "DEV": {
