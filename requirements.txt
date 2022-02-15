@@ -8,7 +8,6 @@ dj-database-url==0.5.0
 Django==3.0
 django-heroku==0.3.1
 djangorestframework==3.10.0
-djangorestframework-jwt==1.11.0
 djangorestframework-simplejwt==5.0.0
 gunicorn==20.0.4
 isort==5.10.1
@@ -18,7 +17,7 @@ mccabe==0.6.1
 platformdirs==2.4.1
 psycopg2==2.9.3
 psycopg2-binary==2.8.6
-PyJWT==2.3.0
+PyJWT==2.0.0
 pylint==2.12.2
 pylint-django==2.5.0
 pylint-plugin-utils==0.7
