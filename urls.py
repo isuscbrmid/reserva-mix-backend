@@ -6,7 +6,6 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
     TokenVerifyView,
 )
-
 urlpatterns = [
     path("bookings", include("apps.bookings.urls", namespace="bookings")),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
