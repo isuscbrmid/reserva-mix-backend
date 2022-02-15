@@ -1,0 +1,12 @@
+{
+  "TIME_ZONE": "America/Merida",
+  "DEBUG": true,
+  "DB":{
+    "DEV": {
+      "HOST": "localhost",
+      "NAME": "posada_del_angel_dev",
+      "USER": "postgres",
+      "PASSWORD": "memento23"
+    }
+  }
+}
