@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.http import Http404
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -33,7 +32,7 @@ class GuestBookingView(APIView):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-class GuestRegistrationListView(APIView):
+class GuestBookingListView(APIView):
     def get(self, request):
         guest_bookings = Guest_booking.objects.all()
         serializer = GuestBookingSerializer(guest_bookings, many=True)
