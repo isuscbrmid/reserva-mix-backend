@@ -13,6 +13,7 @@ __OWN_APPS = (
 __THIRD_PARTY_APPS = (
     "rest_framework",
     'rest_framework_simplejwt',
+    'corsheaders'
 )
 
 INSTALLED_APPS = __DJANGO_APPS + __OWN_APPS + __THIRD_PARTY_APPS
